@@ -1,0 +1,270 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Logo Image Styling */
+#company-logo {
+    max-width: 200px; /* Adjust as needed for your logo's size */
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+section {
+    max-width: 1200px; /* Max width for large screens */
+    width: 90%; /* Default width */
+    margin: auto; /* Centers the section */
+    padding: 20px;
+    overflow: auto; /* Adds scrollbar if content overflows */
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+section h3 {
+    font-weight: normal;
+    color: #555;
+    margin-top: 2rem; /* Adds space above each service sub-heading */
+}
+
+section p {
+    text-align: justify; /* Justifies the text for better readability */
+    margin-bottom: 1rem; /* Adds some space below each paragraph */
+}
+
+/* Style for address and contact numbers */
+address, section p {
+    margin-bottom: 1rem;
+}
+
+#location a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#location a:hover {
+    color: #000;
+}
+
+form {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    header nav ul {
+        padding: 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    section {
+        width: 100%;
+        padding: 15px;
+    }
+
+    section h2, section h3 {
+        font-size: 1.2em;
+    }
+
+    section p, address {
+        font-size: 0.9em;
+    }
+    
+    form {
+        padding: 1rem;
+    }
+    
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+        padding: 10px;
+    }
+
+    form button {
+        padding: 10px;
+    }
+}
+
+/* Existing styles */
+
+/* Style for the new products navigation */
+#products nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#products nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#products nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#products nav ul li a:hover,
+#products nav ul li a:focus {
+    background-color: #ddd;
+    color: #222;
+}
+
+/* Responsive adjustments for the products navigation */
+@media (max-width: 768px) {
+    #products nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #products nav ul li a {
+        display: block;
+    }
+}
+
+/* Existing styles */
+/* Existing CSS above remains unchanged */
+
+/* Existing CSS above remains unchanged */
+
+/* Styles specifically for the products section */
+#products {
+    margin-bottom: 2rem;
+}
+
+#products h2,
+#products h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+#products ul {
+    padding-left: 20px; /* Indentation for the main list */
+    list-style-type: none; /* Removes default list bullets */
+}
+
+#products ul li {
+    margin: 5px 0; /* Space between list items */
+    font-weight: bold; /* Makes the category names bold */
+}
+
+/* Sub-list styles */
+#products ul li ul {
+    padding-left: 20px; /* Indentation for sub-lists */
+    list-style-type: disc; /* Style for sub-list items */
+}
+
+#products ul li ul li {
+    font-weight: normal; /* Sub-items are not bold */
+    margin: 2px 0; /* Space between sub-items */
+}
+
+/* Responsive adjustments can be added if necessary */
+@media (max-width: 768px) {
+    #products ul {
+        padding-left: 10px;
+    }
+
+    #products ul li ul {
+        padding-left: 15px;
+    }
+
+    #products h2,
+    #products h3 {
+        font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
+}
+
+/* Existing CSS below remains unchanged */
